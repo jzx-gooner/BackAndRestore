@@ -1,5 +1,4 @@
 #!/bin/bash
-# JetsonHacks, 2020
 # Copy rootfs to a folder
 # This is useful for backup up a Jetson system.
 # Note that this only copies the rootfs on the APP partition
