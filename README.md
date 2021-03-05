@@ -5,7 +5,7 @@ $ ./0_backup-rootfs.sh -d ddirectory
 ```
 
 
-
+0.恢复镜像到ssd
 ```
 $ ./1_copy-ssd.sh
 ```
