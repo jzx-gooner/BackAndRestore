@@ -68,7 +68,7 @@ esac
 # -x              don't cross file system boundaries
 # -A              preserve Access Control List (ACLs)
 
-sudo rsync -acvxAP --info=progress2 --delete-before --numeric-ids \
+sudo rsync -axHAWX --info=progress2 --delete-before --numeric-ids \
 --exclude={"/dev/","/proc/","/sys/","/tmp/","/run/","/mnt/","/media/*","/lost+found"} \
  / $FULL_BACKUP_FILENAME
 
